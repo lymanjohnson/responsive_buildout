@@ -46,7 +46,7 @@ a:hover{
     color: blue;
 }
 
-header{ 
+header{
     padding-bottom: 15px;
     margin-bottom: 20px;
     border-bottom: 2px solid #ddddff;
@@ -75,4 +75,50 @@ header{
 
 #main_nav a:hover{
     background: #ddddff;
+}
+
+#main_content{
+  background-color: #ddffff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#sidebar_content div{
+  background-color: #ffffdd;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#site_footer{
+  background-color: orange;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+#site_footer a{
+  margin: 0px 5px 0px 5px;
+}
+
+/*
+BREAKPOINT ONE: TABLET (600px)
+*/
+
+@media (min-width: 600px) {
+
+
+
+
+}
+
+/*
+BREAKPOINT TWO: DESKTOP (1100px)
+*/
+
+@media (min-width: 1100px) {
+
+
+
+
 }
